@@ -1,0 +1,48 @@
+.container{
+    position: absolute;
+    top: 50%;
+    text-align:center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    padding: 15px 30px;
+    border: 2px solid grey;
+    font-size: 1.5vh;
+    outline: none;
+    color: rgba(172, 172, 172, 0.163);
+    border-radius: 50px;
+    transition: .3s;
+}
+input:focus{
+    color: black;
+}
+
+input:hover{
+    box-shadow: 1px 1px 10px black;
+    transition: .3s;
+
+}
+
+button{
+    margin: 10px;
+    font-size: 2vh;
+    transition: .3s;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    background: rgb(125, 124, 124);
+    color: white;
+    box-shadow: 2px 2px 20px black;
+}
+
+.count{
+    font-weight: 500;
+    color: red;
+}

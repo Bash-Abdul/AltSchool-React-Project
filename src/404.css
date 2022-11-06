@@ -1,0 +1,32 @@
+.containerError{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(219, 219, 219);
+    align-items: center;
+}
+.header{
+    font-size: 6vh;
+    text-align: center;
+    background-image: linear-gradient(45deg,rgb(104, 95, 95),rgb(42, 38, 38));
+    background-clip: text;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+}
+
+.backTomain{
+    padding: 15px 30px;
+    box-shadow: 2px 2px 20px rgb(104, 95, 95);
+    border-radius: 60px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.backTomain:hover{
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 2px 4px 20px black;
+    color: white;
+    background: rgb(174, 173, 173);
+}
